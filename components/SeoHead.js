@@ -3,11 +3,12 @@ import { useRouter } from "next/router";
 
 // Default value for some meta data
 const defaultMeta = {
-  title: "LaslesVPN",
-  siteName: "LaslesVPN",
+  title: "TrustWorth",
+  siteName: "TrustWorth",
   description:
-    "Landing page VPN LaslesVPN Best VPN For Privacy, Country and Cheapest",
+    "TrustWorth is a banking platform that allows you to manage your bank accounts, manage your transactions",
   // change base url of your web (without '/' at the end)
+  url: "https://next-trustworth-bank.vercel.app",
   type: "website",
   robots: "follow, index",
   // change with url of your image (recommended dimension = 1.91:1)
