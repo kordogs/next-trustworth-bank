@@ -11,7 +11,7 @@ const Testimoni = ({
   listTestimoni = [
     {
       name: " Emily Turner",
-      image: "/assets/people-3.png",
+      image: "/assets/person1.png",
       city: "New York",
       country: "US",
       rating: "4.5",
@@ -20,7 +20,7 @@ const Testimoni = ({
     },
     {
       name: "Carlos Rodriguez",
-      image: "/assets/people-3.png",
+      image: "/assets/person1.png",
       city: "Madrid",
       country: "Spain",
       rating: "4.5",
@@ -29,7 +29,7 @@ const Testimoni = ({
     },
     {
       name: "Aisha Patel",
-      image: "/assets/people-3.png",
+      image: "/assets/person1.png",
       city: "Mumbai",
       country: "India",
       rating: "4.5",
@@ -38,7 +38,7 @@ const Testimoni = ({
     },
     {
       name: "Francois Dubois",
-      image: "/assets/people-3.png",
+      image: "/assets/person1.png",
       city: "Paris",
       country: "France",
       rating: "4.5",
@@ -99,6 +99,7 @@ const Testimoni = ({
                     height={50}
                     width={50}
                     alt="Icon People"
+                    className="rounded-full"
                   />
                   <div className="flex flex-col ml-5 text-left">
                     <p className="text-lg text-black-600 capitalize">

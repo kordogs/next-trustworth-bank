@@ -96,7 +96,7 @@ const favicons = [
   {
     rel: "apple-touch-icon",
     sizes: "57x57",
-    href: "/public/favicon/bank-svgrepo-com.png",
+    href: "/favicon/bank-svgrepo-com.png",
   },
 ];
 
